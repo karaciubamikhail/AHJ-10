@@ -1,6 +1,5 @@
 // TODO: write code here
-import { CardForm } from "./card-form";
+import { TimeLine } from "./timeLine";
 
-let form = new CardForm(document.querySelector(".container"));
-form.bindToDom();
-form.formEvent();
+let timeLine = new TimeLine (document.querySelector('.timeLine'));
+timeLine.init();

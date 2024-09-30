@@ -1,3 +1,31 @@
 body {
     color: #999;
 }
+.container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.timeLine{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+}
+.timeLine-input{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.timeLine-list__item__conteiner{
+    display: flex;
+
+}
+.timeLine-list__item__content{
+    margin-right: 20px;
+}
